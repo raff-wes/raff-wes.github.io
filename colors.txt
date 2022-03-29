@@ -1,0 +1,36 @@
+https://webdesign.tutsplus.com/tutorials/color-schemes-with-css-variables-and-javascript--cms-36989
+https://youtu.be/CYIdAwJ2XPA
+
+BLUEFILTER:
+{
+    "Rich Black FOGRA 39":"06070e",
+    "Pacific Blue":"0eb1d2",
+    "Fluorescent Blue":"34e4ea",
+    "Byzantium":"7a306c",
+    "Copper Rose":"9d5c63"
+    }
+ NO FILTER:
+
+{
+    "Rich Black FOGRA 39":"06070e",
+    "Steel Blue":"427aa1",
+    "Orange Crayola":"ff6b35",
+    "Maximum Green":"679436",
+    "Red Salsa":"f03a47"
+    }
+
+BLUEFILTER 2{
+    Black   #14192A
+    Orange  #F58D51
+    Green   #DBF83A
+    Blue    #5CFFEF
+    White   #F7F3F4
+}
+
+NO FILTER 2{
+    Black   #0D111C
+    Orange  #F4813E
+    Green   #98B206
+    Blue    #00E0CA
+    White   #E7DADD
+}

@@ -1,0 +1,6 @@
+<title>Rafał Wesołowski</title>
+title_1:
+Rafał Wesołowski
+title_2:
+Strona o moich kompetencjach, portfolio, zainteresowaniach, o mnie
+

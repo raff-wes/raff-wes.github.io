@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+}
+:root,
+:root.first{
+    --black: #06070E;
+    --orange: #FF6B35;
+    --green: #679436;
+    --blue: #427AA1;
+    --white: #FFFFFF;
+}
+:root.second{
+    --black: #14192A;
+    --orange: #F58D51;
+    --green: #DBF83A;
+    --blue: #5CFFEF;
+    --white: #F7F3F4;
+}
+:root.third{
+    --black: #0D111C;
+    --orange: #F4813E;
+    --green: #98B206;
+    --blue: #00E0CA;
+    --white: #E7DADD;
+}
+
+
+
+
+#test{
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+#test p{
+    text-align: center;
+    width: 30px;
+    font-size: xx-small;
+    font-weight: lighter;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    margin: 1px;
+    border-radius: 100%;
+    margin: auto;
+}
+#one{
+    background-color: var(--black);
+}
+#two{
+    background-color: var(--orange);
+}
+#three{
+    background-color: var(--green);
+}
+#four{
+    background-color: var(--blue);
+}
+#five{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+
+
+body{
+    margin:  auto;
+    background-color: var(--white);
+    overflow: scroll;
+}
+header{
+    background-color: var(--black);
+    /*overflow-y: hidden;*/
+}
+h1{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 300%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    
+}
+h2{
+    color: lightgray;
+    padding-bottom: 2%;
+    
+}
+select{
+    float: right;
+    margin: 1px;
+    margin-left: 3px;
+    margin-right: 5px;
+    text-align: center;
+}
+select:hover{
+    cursor: pointer;
+}
+nav{
+    height: 25px;
+    background-color: var(--black);
+}
+
+article{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+p{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer{
+    background-color: var(--black);
+    color: var(--white);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 2px;
+    background: var(--white);
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 2px;
+    background: var(--green);
+    width: 0%;
+  }
+.currentOption{
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 3px;
+    border-bottom: 3px solid var(--white);
+}
+.option{
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 3px;
+}
+.option:hover{
+    border-bottom: 3px solid var(--green);
+    cursor: pointer;
+}
+.option:active{
+    border-bottom: 3px solid var(--orange);
+    cursor: pointer;
+}
+.optionFulfill{
+    width: 1%;
+    background-color: var(--black);
+    float: left;
+}
+#settingsBar{
+    height: 20px;
+    width: 100%;
+    background-color: #393E46;
+    text-align: right;
+    float: none;
+    opacity: 75%;
+}
+#settingsBar:hover{
+    opacity: 100%;
+}
+#settingLabel{
+    height: auto;
+    color: var(--white);
+    float: right;
+    padding: 1px;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#title{
+    /*position: fixed;
+    top: 0;*/
+    width: 100%;
+    background-color: var(--black);
+    text-align: center;
+}
+.spacemaker{
+    height: 1000px;
+}
+#top{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: var(--orange); /* Ustawcie sobie kolor jaki chcecie ;-) */
+    color: var(--white); /* Byle było widać względem background */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    padding-bottom: 20px;
+    font-size: 30px; /* Increase font size */
+    font-weight: 100;
+    border-radius: 50%; /* Rounded corners */
+    text-transform: uppercase;
+    opacity: 50%;
+}
+#top:hover {
+    opacity: 100%;
+}
+
